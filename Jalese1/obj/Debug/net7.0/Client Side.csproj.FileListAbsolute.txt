@@ -1,0 +1,30 @@
+D:\Uni\term2\Client Side\bin\Debug\net7.0\appsettings.Development.json
+D:\Uni\term2\Client Side\bin\Debug\net7.0\appsettings.json
+D:\Uni\term2\Client Side\bin\Debug\net7.0\Client Side.staticwebassets.runtime.json
+D:\Uni\term2\Client Side\bin\Debug\net7.0\Client Side.exe
+D:\Uni\term2\Client Side\bin\Debug\net7.0\Client Side.deps.json
+D:\Uni\term2\Client Side\bin\Debug\net7.0\Client Side.runtimeconfig.json
+D:\Uni\term2\Client Side\bin\Debug\net7.0\Client Side.dll
+D:\Uni\term2\Client Side\bin\Debug\net7.0\Client Side.pdb
+D:\Uni\term2\Client Side\obj\Debug\net7.0\Client Side.GeneratedMSBuildEditorConfig.editorconfig
+D:\Uni\term2\Client Side\obj\Debug\net7.0\Client Side.AssemblyInfoInputs.cache
+D:\Uni\term2\Client Side\obj\Debug\net7.0\Client Side.AssemblyInfo.cs
+D:\Uni\term2\Client Side\obj\Debug\net7.0\Client Side.csproj.CoreCompileInputs.cache
+D:\Uni\term2\Client Side\obj\Debug\net7.0\Client Side.MvcApplicationPartsAssemblyInfo.cache
+D:\Uni\term2\Client Side\obj\Debug\net7.0\Client Side.RazorAssemblyInfo.cache
+D:\Uni\term2\Client Side\obj\Debug\net7.0\Client Side.RazorAssemblyInfo.cs
+D:\Uni\term2\Client Side\obj\Debug\net7.0\staticwebassets\msbuild.Client Side.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Uni\term2\Client Side\obj\Debug\net7.0\staticwebassets\msbuild.build.Client Side.props
+D:\Uni\term2\Client Side\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Client Side.props
+D:\Uni\term2\Client Side\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Client Side.props
+D:\Uni\term2\Client Side\obj\Debug\net7.0\staticwebassets.pack.json
+D:\Uni\term2\Client Side\obj\Debug\net7.0\staticwebassets.build.json
+D:\Uni\term2\Client Side\obj\Debug\net7.0\staticwebassets.development.json
+D:\Uni\term2\Client Side\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Uni\term2\Client Side\obj\Debug\net7.0\scopedcss\bundle\Client Side.styles.css
+D:\Uni\term2\Client Side\obj\Debug\net7.0\scopedcss\projectbundle\Client Side.bundle.scp.css
+D:\Uni\term2\Client Side\obj\Debug\net7.0\Client Side.dll
+D:\Uni\term2\Client Side\obj\Debug\net7.0\refint\Client Side.dll
+D:\Uni\term2\Client Side\obj\Debug\net7.0\Client Side.pdb
+D:\Uni\term2\Client Side\obj\Debug\net7.0\Client Side.genruntimeconfig.cache
+D:\Uni\term2\Client Side\obj\Debug\net7.0\ref\Client Side.dll
