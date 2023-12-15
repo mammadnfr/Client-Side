@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\jalese4.props" />
+</Project>

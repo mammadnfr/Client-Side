@@ -1,0 +1,72 @@
+@{
+    ViewData["Title"] = "Shop";
+}
+
+
+
+<table>
+    <tr>
+        <th>کد محصول</th>
+        <th>نام محصول</th>
+        <th>تعداد</th>
+        <th>رنگ</th>
+        <th>دسته بندی</th>
+        <th>توضیحات</th>
+        <th>قیمت</th>
+        <th>موجودی</th>
+    </tr>
+    @{
+        foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.Name</td>
+                <td>@item.Count</td>
+                <td>@item.Color</td>
+                <td>@item.Category</td>
+                <td>@item.Description</td>
+                <td>@item.Price</td>
+                <td>@item.available</td>
+            </tr>
+        }
+    }
+    <tr>
+        <td colspan="6">مجموع قیمت </td>
+        <td colspan="2">@ViewBag.Sum</td>
+    </tr>
+
+
+</table>
+<style>
+    table {
+        width: 100%;
+        direction: rtl;
+        border-collapse: collapse;
+        font-family: vazirmatn;
+    }
+
+    th,
+    td {
+        border: 1px solid #a3a3a391;
+        padding: 10px;
+
+    }
+
+    th {
+        background-color: #f2f2f2;
+        font-weight: bold;
+    }
+
+    tr:nth-child(even) {
+        background-color: #ececec;
+    }
+
+    tr:hover {
+        background-color: #f5f5f5;
+    }
+
+    h2,
+    p {
+        font-family: vazirmatn;
+    }
+</style>
