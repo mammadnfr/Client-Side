@@ -1,0 +1,53 @@
+@{
+    ViewData["Title"] = "RegUser";
+}
+<form dir="rtl" asp-controller="Home" asp-action="SaveUser" method="post">
+    <input type="text" name="Name" placeholder="نام را وارد کنید" required>
+    <input type="text" name="Family" placeholder="نام خانوادگی را وارد کنید" required>
+    <input type="text" name="NameFather" placeholder="نام پدر وارد کنید" required>
+    <input type="text" name="Password" placeholder="کلمه عبور را وارد کنید" required>
+    <input type="text" name="BirthDay" id="time" data-jdp placeholder="تاریخ تولد را وارد کنید" required>
+    <input type="submit" class="btn btn-primary" value="ذخیره">
+</form>
+
+<p dir="rtl">تعداد کاربران: @ViewBag.CountUser</p>
+@model IEnumerable<Users>
+<table dir="rtl" class="table table-responsive">
+    <tr>
+        <th>شناسه</th>
+        <th>نام</th>
+        <th>نام خانوادگی</th>
+        <th>نام پدر</th>
+        <th>تاریخ تولد</th>
+    </tr>
+    @{
+        foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.Name</td>
+                <td>@item.Family</td>
+                <td>@item.NameFather</td>
+                <td>@item.BirthDay</td>
+            </tr>
+        }
+    }
+</table>
+
+
+@section Scripts {
+    <script>
+
+        jalaliDatepicker.startWatch({
+            minDate: "attr",
+            maxDate: "attr"
+        });
+
+        setTimeout(function () {
+            var elm = document.getElementsById("time")[0];
+            elm.focus();
+            jalaliDatepicker.hide();
+            jalaliDatepicker.show(elm);
+        }, 1000);
+    </script>
+}
