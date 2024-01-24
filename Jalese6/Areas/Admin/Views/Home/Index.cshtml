@@ -1,0 +1,42 @@
+@model IEnumerable<Jalese6.Models.Product>
+@{
+    Layout = "_Layout1";
+}
+@{
+    <div class="container">
+        <div class="row justify-content-center product-grid-style">
+            @{
+                foreach (var item in Model)
+                {
+                    <div class="col-11 col-sm-6 col-lg-4 col-xl-3">
+                        <div class="product-details">
+                            
+                                <div class="label-offer bg-red">تخفیف</div><img src="~/@item.ImagePath" alt="Ax">
+                            <div class="product-info">
+                                <a href="#">@item.Name</a>
+                                <p class="price text-center m-0">
+                                    <span id="@item.Id"></span>
+                                    <br />
+                                    <span class="red line-through me-2">@item.Price</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <script>
+     function Pe2Co(){
+	const balance = Number(@item.Price);
+	const percent = Number(@item.Percent);
+	let prs = ( percent * balance ) / 100;
+    let res= balance-prs;
+	document.getElementById('@item.Id').innerHTML = res + 'تومان';
+}
+Pe2Co();
+    </script>
+                }
+            }
+</div>
+</div>
+
+    <br />
+    <a class="btn btn-primary btn-lg" href="@Url.Action("Form", "Home", new {Area = "Admin"})">ثبت کالا</a>
+}

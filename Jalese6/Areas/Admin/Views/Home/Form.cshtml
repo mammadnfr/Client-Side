@@ -1,0 +1,28 @@
+﻿@model IEnumerable<Jalese6.Models.Product>
+@*
+For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    <form dir="rtl" action="@Url.Action("SaveForms", "Home", new {Area = "Admin"})" method="post"
+        enctype="multipart/form-data">
+        <div class="form-group">
+            <label for="Name">نام کالا</label>
+            <input type="text" name="Name" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label for="Price">قیمت کالا</label>
+            <input type="number" name="Price" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label for="Percent">درصد تخفیف</label>
+            <input type="number" name="Percent" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label for="Image">تصویر کالا</label>
+            <input type="file" name="Image" class="form-control-file" />
+        </div>
+        <div class="form-group">
+            <input type="submit" class="btn btn-primary" value="Save" />
+        </div>
+    </form>
+}

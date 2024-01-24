@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Jalese6.props" />
+</Project>
